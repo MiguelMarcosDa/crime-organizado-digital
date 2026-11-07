@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [Kayk Alberto Santana Ferreira ] | [@Kayksantanaf] |  Engenharia de Dados | [RGM] |
 | Maria Clara Farias Coelho] | [@mariaclarafarias1806-web] |  Engenharia de Dados | [RGM] |
-| [Miguel Marcos Da Silva Gonçalves] | [@usuario] |  Engenharia de Dados | [RGM] |
+| [Miguel Marcos Da Silva Gonçalves] | [@Miguel Marcos Da Silva Gonçalves] |  Engenharia de Dados | [RGM] |
 
 
 
