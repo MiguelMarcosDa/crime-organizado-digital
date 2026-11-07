@@ -5,7 +5,7 @@
 | Nome completo (ordem alfabética) | GitHub | Área de carreira | RGM |
 |---|---|---|---|
 | [Kayk Alberto Santana Ferreira ] | [@Kayksantanaf] |  Engenharia de Dados | [RGM] |
-| Maria Clara Farias Coelho] | [@usuario] |  Engenharia de Dados | [RGM] |
+| Maria Clara Farias Coelho] | [@mariaclarafarias1806-web] |  Engenharia de Dados | [RGM] |
 | [Miguel Marcos Da Silva Gonçalves] | [@usuario] |  Engenharia de Dados | [RGM] |
 
 
