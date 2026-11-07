@@ -6,9 +6,9 @@
 
 | Nome completo (ordem alfabética) | GitHub | Área de carreira | RGM |
 |---|---|---|---|
-| [Nome] | [@usuario] | [Área] | [RGM] |
-| [Nome] | [@usuario] | [Área] | [RGM] |
-| [Nome] | [@usuario] | [Área] | [RGM] |
+| [Nome] | Kayk Santana | Engenharia de Dados | [RGM] |
+| [Nome] | [@usuario] | Engenharia de Dados | [RGM] |
+| [Nome] | [@usuario] |Engenharia de Dados | [RGM] |
 
 
 
@@ -18,30 +18,169 @@
 
 ## 1. Análise do problema
 
-### 1.1 Quem é afetado, onde e quanto
+### 1.1 
 
-* Escala das contas laranja. A Serasa Experian estimou que mais de 2,6 milhões de pessoas ou contas tinham indícios de atuar como "perfil laranja" em 2025, com crescimento de mais de 60% em dois anos e cerca de 1,2 bilhão de transações Pix associadas (aprox. 2% do total nacional). Apenas 3,2% desses perfis foram detectados pelas instituições (Serasa Experian, mar/2026; Olhar Digital, 2026).
-* Peso no Pix. As instituições participantes do Pix identificaram 328.945 contas laranja em 2024, associadas a cerca de 27% das fraudes do sistema (Viva/Broadcast, set/2025).
-* Perfil. Jovens e pessoas de baixa renda concentram a maioria das vítimas, segundo a Quod (BP Money, 2026); a Serasa mostrou que perfis com baixo uso de serviços financeiros foram 9 vezes mais arriscados que os de alto uso (Serasa Experian, 2026).
+##  O que é afetado?
+- **Pessoas:** golpes, manipulação, extorsão e exploração.
+- **Crianças e adolescentes:** aliciamento e abuso online.
+- **Sistema financeiro:** contas bancárias utilizadas para movimentar dinheiro ilícito.
+- **Empresas e bancos:** fraudes e prejuízos financeiros.
+- **Sociedade:** aumento da insegurança digital.
+
+## Onde? 
+- Redes sociais (Instagram, Facebook e TikTok).
+- Aplicativos de mensagens (WhatsApp e Telegram).
+- Jogos online.
+- Plataformas bancárias e transferências digitais.
+
+##  Dados e estatísticas
+
+| Indicador | Dados |
+|---|---|
+| Exploração online | 19% dos jovens de 12 a 17 anos foram vítimas de exploração e/ou abuso sexual facilitados pela tecnologia em um ano. |
+| Vítimas estimadas | Aproximadamente 3 milhões de crianças e adolescentes no Brasil. |
+| Denúncias na internet | 49.336 denúncias entre janeiro e julho de 2025. |
+| Contas laranja | 2,6 milhões de potenciais indivíduos ou contas identificados com indícios de atuação como laranjas em 2025. |
+| Crescimento | Aumento de 62% em relação a 2023, segundo a Serasa Experian. |
+
+## Exemplo real
+
+**Operação Mandacaru – Polícia Federal (2025)**
+
+- Investigação de organização criminosa envolvendo fraudes bancárias.
+- Aproximadamente R$ 25 milhões movimentados em operações suspeitas.
+- Utilização de contas digitais e pessoas como laranjas.
+
+## O crime organizado digital prejudica pessoas, empresas e instituições financeiras. O aliciamento online facilita a exploração de vítimas, enquanto as contas laranja ajudam criminosos a movimentar dinheiro ilícito e dificultar sua identificação.
+
+## Fontes de pesquisa
+
+- [UNICEF](https://www.unicef.org/)
+- [SaferNet Brasil](https://new.safernet.org.br/)
+- [Serasa Experian](https://www.serasaexperian.com.br/)
+- [Polícia Federal](https://www.gov.br/pf/pt-br)
+- [Banco Central do Brasil](https://www.bcb.gov.br/)
+
+
+
 
 
 
 ### 1.2 Causas
 [Destaque para as causas tecnológicas: sistemas, dados, redes, decisões de projeto]
 
-* Escala e velocidade do Pix. Transferência instantânea reduz a janela de resposta; o baixo uso da conta ampliou o espaço para contas de passagem.
-* Aliciamento em ambientes pouco moderados. Jogos online e apps de mensagem servem de porta de entrada, e as plataformas respondem de forma desigual (Folha/Bem Paraná, 2026).
-* Detecção tardia e fragmentada. Só 3,2% dos perfis laranja foram detectados em 2025. Cada instituição vê apenas parte do caminho do dinheiro, enquanto os criminosos fazem o dinheiro passar por várias contas em minutos, e as contas intermediárias cresceram 62% desde 2023 (Olhar Digital, 2026).
 
-### 1.3 O que já existe e por que não basta
+## Causas Tecnológicas
 
-* BC Protege+ (dez/2025)	Permite à pessoa pedir que não abram conta em seu nome (Agência Gov, 2025)	Protege a vítima de identidade usada sem consentimento; não resolve quem empresta a conta
+O crime organizado no ambiente digital é facilitado por vulnerabilidades em sistemas, exposição de dados pessoais, redes de comunicação e falhas nas decisões de segurança das plataformas.
+
+### Sistemas
+- Falhas na verificação de identidade em cadastros digitais.
+- Sistemas bancários vulneráveis a fraudes.
+- Falta de mecanismos eficientes para detectar atividades suspeitas.
+
+### Dados
+- Vazamento de informações pessoais, como CPF, telefone e endereço.
+- Uso indevido de dados roubados para abertura de contas falsas.
+- Comercialização ilegal de informações pessoais.
+
+### Redes e plataformas
+- Redes sociais utilizadas para aliciamento de vítimas.
+- Aplicativos de mensagens usados para organizar atividades criminosas.
+- Jogos online utilizados para estabelecer contato e ganhar a confiança de menores.
+
+### Decisões de projeto
+- Falta de autenticação e verificação de identidade eficientes.
+- Configurações de privacidade inadequadas.
+- Moderação insuficiente de perfis e conteúdos criminosos.
+- Falta de monitoramento de movimentações financeiras suspeitas.
+
+### Conclusão
+As vulnerabilidades tecnológicas e as falhas de segurança podem facilitar o aliciamento online e a utilização de contas laranja. Por isso, é importante investir em proteção de dados, sistemas de identificação seguros, monitoramento e fiscalização das plataformas digitais.
+
+
+##  Fontes de pesquisa
+
+- [ANPD – Autoridade Nacional de Proteção de Dados](https://www.gov.br/anpd/pt-br)
+- [CERT.br – Segurança na Internet](https://cartilha.cert.br/)
+- [Banco Central do Brasil](https://www.bcb.gov.br/)
+- [SaferNet Brasil](https://new.safernet.org.br/)
+- [UNICEF Brasil](https://www.unicef.org/brazil/)
+
+
+### 1.3
+
+##  O que já existe?
+
+- **Disque 100:** recebe denúncias de violência e exploração contra crianças e adolescentes, inclusive pela internet.
+- **SaferNet Brasil:** oferece denúncias anônimas de crimes digitais e orientação às vítimas.
+- **Polícia Federal:** investiga crimes cibernéticos e organizações criminosas.
+- **Comunica PF:** canal para comunicar crimes cibernéticos relacionados à exploração sexual infantil com repercussão internacional.
+- **Conselho Tutelar:** atua na proteção de crianças e adolescentes vítimas de violência.
+- **Bancos e instituições financeiras:** utilizam sistemas de monitoramento para identificar fraudes e movimentações suspeitas.
+- **Plataformas digitais:** oferecem ferramentas para denunciar, bloquear perfis e remover conteúdos criminosos.
+
+##  Por que não basta?
+
+- Muitos crimes acontecem sem que as vítimas realizem denúncias.
+- Criminosos utilizam perfis falsos e identidades de terceiros.
+- A identificação de contas laranja pode ser difícil.
+- As investigações podem envolver diferentes cidades e países.
+- Novas tecnologias permitem que os criminosos mudem rapidamente suas estratégias.
+- A prevenção e a fiscalização ainda precisam ser ampliadas.
+
+##  O que poderia melhorar?
+
+- Reforçar a segurança e a verificação de identidade em plataformas digitais e bancos.
+- Melhorar o compartilhamento de informações entre instituições.
+- Ampliar campanhas de educação e conscientização digital.
+- Investir em tecnologias de identificação de fraudes.
+- Facilitar os canais de denúncia e o atendimento às vítimas.
+
+##  Conclusão
+
+Apesar da existência de serviços públicos, organizações e ferramentas de proteção, o combate ao crime organizado digital ainda enfrenta desafios. É necessário fortalecer a prevenção, melhorar a segurança tecnológica e ampliar a cooperação entre empresas, bancos e autoridades policiais.
+
+##  Fontes de pesquisa
+
+- [Disque 100 – Governo Federal](https://www.gov.br/mdh/pt-br)
+- [SaferNet Brasil](https://new.safernet.org.br/)
+- [Polícia Federal](https://www.gov.br/pf/pt-br)
+- [Comunica PF](https://www.gov.br/pf/pt-br/canais_atendimento/comunicacao-de-crimes)
+- [Banco Central do Brasil](https://www.bcb.gov.br/)
+- [Ministério da Justiça](https://www.gov.br/mj/pt-br)
+
+
 
 ## 2. Proposta tecnológica
 
 
 ### 2.1 A solução, do ponto de vista do usuário
 [O que é, para quem, e como funciona passo a passo]
+
+
+# Solução Proposta
+
+##  O que é?
+Uma plataforma digital de prevenção e conscientização contra o crime organizado no ambiente digital, com foco no aliciamento online e nas contas laranja.
+
+## Para quem?
+- Crianças e adolescentes.
+- Pais e responsáveis.
+- Jovens e adultos.
+- Pessoas que utilizam bancos e redes sociais.
+
+## Como funciona? (Passo a passo)
+
+1. **Acesso:** o usuário entra na plataforma pelo celular ou computador.
+2. **Informação:** consulta conteúdos sobre aliciamento online e contas laranja.
+3. **Identificação:** aprende a reconhecer golpes e comportamentos suspeitos.
+4. **Proteção:** recebe orientações para proteger seus dados pessoais e contas bancárias.
+5. **Denúncia:** encontra os canais oficiais para denunciar situações suspeitas.
+6. **Orientação:** recebe informações sobre como buscar ajuda e apoio das autoridades.
+
+##  Objetivo
+Utilizar a tecnologia para conscientizar, prevenir e ajudar a população a se proteger contra crimes digitais.
 
 
 ### 2.2 Arquitetura
