@@ -302,33 +302,67 @@ flowchart LR
 
 ## 8. Capítulos individuais
 
+### 8.1 Kayk Alberto Santana Ferreira — Engenharia de Dados
 
-### 8.1 [Nome do integrante] — [Área]
-
-
-**Papel no projeto:** [pelo que respondeu e o que produziu]
-
+**Papel no projeto:** Responsável pelo desenho e implementação da arquitetura de ingestão de dados transacionais em tempo real (pipelines com Apache Kafka e Apache Flink), garantindo o fluxo contínuo e a baixa latência das informações transacionais até a Feature Store.
 
 **Plano de desenvolvimento**
 
+| Competência que a solução exige | Técnica ou comportamental | Já tenho? |
+|---|---|---|
+| Ingestão e streaming de dados com Apache Kafka | Técnica | Sim |
+| Construção e gestão de Feature Stores (Feast/Redis) para ML | Técnica | Não (em desenvolvimento) |
+| Otimização e monitoramento de concorrência e baixa latência | Técnica | Não (em desenvolvimento) |
+| Trabalho colaborativo com equipes de Segurança e ML | Comportamental | Sim |
+
+**Metas SMART (6 a 12 meses)**
+1. **Curto Prazo (6 meses):** Implementar um ambiente de testes em contêineres utilizando Kafka e Flink para simular a ingestão contínua de 5.000 eventos transacionais por segundo, validando o tempo de resposta em até 50ms até abril de 2027.
+2. **Longo Prazo (12 meses):** Concluir uma capacitação em Arquitetura de Dados Orientada a Eventos (Event-Driven Data Architecture) e documentar a especificação de uma Feature Store para o projeto da faculdade até outubro de 2027.
+
+**Feedback dos colegas**  
+O Kayk demonstrou forte liderança técnica ao estruturar o pipeline de streaming do projeto, traduzindo requisitos complexos de infraestrutura em fluxos claros e eficientes. Sua atuação foi essencial para que o projeto alcançasse a velocidade necessária na detecção em tempo real. Como ponto de evolução construtiva, sugerimos que ele promova sessões de alinhamento para compartilhar o passo a passo de configuração dos contêineres e scripts de ingestão com o restante da equipe, garantindo maior autonomia e alinhamento técnico entre todos os membros.
+
+
+### 8.2 Maria Clara Farias Coelho — Engenharia de Dados
+
+**Papel no projeto:** Responsável pela Governança de Dados, Criptografia e Privacidade (LGPD). Desenvolveu os pipelines de anonimização e mascaramento de dados de menores de idade, a esteira de auditoria de viés algorítmico e os mecanismos de segurança que garantem a análise antifraude sem discriminação por perfil socioeconômico ou geográfico.
+
+**Plano de desenvolvimento**
 
 | Competência que a solução exige | Técnica ou comportamental | Já tenho? |
 |---|---|---|
-| | | |
-
+| Governança de dados e aplicação prática da LGPD em pipelines | Técnica | Sim |
+| Criptografia e mascaramento de dados em trânsito/repouso (ZKP / Hashing) | Técnica | Não (em desenvolvimento) |
+| Auditoria de viés e mensuração de equidade em conjuntos de dados | Técnica | Não (em desenvolvimento) |
+| Pensamento crítico sobre o impacto ético da tecnologia em minorias | Comportamental | Sim |
 
 **Metas SMART (6 a 12 meses)**
-1. [Específica, mensurável, atingível, relevante e com prazo]
+1. **Curto Prazo (6 meses):** Desenvolver um script em Python utilizando bibliotecas de anonimização (como Faker ou Presidio) para realizar o mascaramento dinâmico de dados sensíveis (CPF, nome e localização) em tópicos do Kafka até abril de 2027.
+2. **Longo Prazo (12 meses):** Concluir um treinamento avançado em Proteção de Dados e elaborar o Relatório de Impacto à Proteção de Dados Pessoais (RIPD/DPIA) completo para arquiteturas de streaming até outubro de 2027.
+
+**Feedback dos colegas**  
+A Maria Clara foi fundamental para garantir que a proposta não fosse apenas funcional, mas eticamente responsável e alinhada à legislação vigente. Sua atuação garantiu a proteção dos dados dos jovens sem criar mecanismos discriminatórios. Para a continuidade do seu desenvolvimento, recomendamos aprofundar os aspectos práticos da implementação de criptografia dentro da esteira de Engenharia de Dados.
 
 
-**Feedback dos colegas**
-[Avaliação construtiva e propositiva, escrita em conjunto pelos demais integrantes]
+### 8.3 Miguel Marcos Da Silva Gonçalves — Engenharia de Dados
 
+**Papel no projeto:** Responsável pela integração dos pipelines de dados com as APIs bancárias e pela estruturação dos dashboards operacionais em tempo real para a equipe de analistas humanos atuar nas contestações de bloqueio.
 
-### 8.2 [Próximo integrante] — [Área]
-### 8.3 [Próximo integrante] — [Área]
-### 8.4 [Próximo integrante (se houver)] — [Área]
-### 8.5 [Próximo integrante (se houver)] — [Área]
+**Plano de desenvolvimento**
+
+| Competência que a solução exige | Técnica ou comportamental | Já tenho? |
+|---|---|---|
+| Construção e consumo de APIs RESTful e conectores de dados | Técnica | Sim |
+| Desenvolvimento de dashboards em tempo real (Grafana / Streaming) | Técnica | Não (em desenvolvimento) |
+| Modelagem de bancos relacionais e NoSQL para auditoria | Técnica | Sim |
+| Comunicação técnica ágil entre Engenharia e Operações | Comportamental | Sim |
+
+**Metas SMART (6 a 12 meses)**
+1. **Curto Prazo (6 meses):** Desenvolver e documentar os endpoints de integração via API entre a plataforma de contestação e o banco de dados auditável no prazo de até 5 meses.
+2. **Longo Prazo (12 meses):** Dominar ferramentas de observabilidade e métricas de saúde de dados (Prometheus e Grafana) para monitorar o SLA dos alertas de contestação até setembro de 2027.
+
+**Feedback dos colegas**  
+O Miguel desempenhou um papel determinante ao conectar a infraestrutura de dados com a interface de análise humana, demonstrando pontualidade, organização e excelente capacidade de execução. Sua visão orientada à solução facilitou a integração dos serviços. Para os seus próximos passos de desenvolvimento técnico, recomendamos que ele aprofunde seus conhecimentos em métricas de observabilidade de dados (Data Observability), antecipando possíveis gargalos de rede ou perda de pacotes nos pipelines antes que afetem o usuário final.
 
 
 ## 9. Referências
