@@ -6,7 +6,7 @@
 |---|---|---|---|
 | Kayk Alberto Santana Ferreira | [@Kayksantanaf](https://github.com/Kayksantanaf) | Engenharia de Dados | [RGM] |
 | Maria Clara Farias Coelho | [@mariaclarafarias1806-web](https://github.com/mariaclarafarias1806-web) | Engenharia de Dados | [RGM] |
-| Miguel Marcos da Silva Gonçalves | [@GitHub do Miguel](https://github.com/) | Engenharia de Dados | [RGM] |
+| Miguel Marcos da Silva Gonçalves | [@Miguel Marcos Da Silva Gonçalves](https://github.com/) | Engenharia de Dados | [RGM] |
 
 **Dossiê:** 2. Crime organizado no ambiente digital: aliciamento online e contas laranja.
 
