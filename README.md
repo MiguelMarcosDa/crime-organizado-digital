@@ -4,9 +4,9 @@
 
 | Nome completo (ordem alfabética) | GitHub | Área de carreira | RGM |
 |---|---|---|---|
-| Kayk Alberto Santana Ferreira | [@Kayksantanaf](https://github.com/Kayksantanaf) | Engenharia de Dados | [RGM] |
-| Maria Clara Farias Coelho | [@mariaclarafarias1806-web](https://github.com/mariaclarafarias1806-web) | Engenharia de Dados | [RGM] |
-| Miguel Marcos da Silva Gonçalves | [@Miguel Marcos Da Silva Gonçalves](https://github.com/) | Engenharia de Dados | [RGM] |
+| Kayk Alberto Santana Ferreira | [@Kayksantanaf] | Engenharia de Dados | 47792426 |
+| Maria Clara Farias Coelho | [@mariaclarafarias1806-web]| Engenharia de Dados | [RGM] |
+| Miguel Marcos da Silva Gonçalves | [@GitHub do Miguel] | Engenharia de Dados | [RGM] |
 
 **Dossiê:** 2. Crime organizado no ambiente digital: aliciamento online e contas laranja.
 
@@ -351,7 +351,17 @@ Validação planejada: auditoria com leitor de tela (NVDA e TalkBack) e teste de
 2. **Longo prazo (12 meses):** concluir um curso de arquitetura orientada a eventos e streaming (mínimo de 20 horas, com certificado) e publicar no repositório a especificação técnica de uma Feature Store (Feast e Redis) com ao menos 10 variáveis do projeto, até **31/10/2027**.
 
 **Feedback dos colegas**
-O Kayk estruturou o pipeline de streaming do projeto e traduziu requisitos de infraestrutura em fluxos claros, o que foi essencial para a proposta de detecção em tempo real. Como ponto de evolução, sugerimos que organize sessões curtas para compartilhar a configuração dos contêineres e dos scripts de ingestão, aumentando a autonomia do restante da equipe.
+*Escrito em conjunto por Maria Clara e Miguel.*
+
+**Sobre o papel:** o Kayk é a base técnica do projeto. Sem o pipeline de ingestão e a Feature Store que ele desenhou, nem a governança de dados nem o painel do analista teriam o que consumir. Ele transformou o requisito "detectar em minutos" em uma arquitetura concreta (Kafka, Flink, Feature Store), e foi isso que deu coerência técnica à proposta de detecção em tempo real.
+
+**Sobre o plano:** as metas são mensuráveis e conversam com o projeto (1.000 eventos por segundo com latência p95 abaixo de 100 ms; especificação da Feature Store com 10 variáveis). A competência que mais precisa de atenção é a Feature Store, hoje marcada como "Não", e ela é a que mais pesa nas entregas dos outros dois.
+
+**Sugestões:**
+1. Definir logo um contrato de dados (esquema dos eventos e das variáveis) com a Maria Clara, para que o mascaramento aconteça antes da Feature Store e ela só receba dados já protegidos.
+2. Combinar com o Miguel quais métricas de latência do pipeline entram no painel de SLA, para que a meta de 100 ms seja acompanhada de verdade e não só testada uma vez.
+3. Prever um plano B caso o Flink demore a ser dominado (por exemplo, começar com Kafka Streams) e registrar a decisão no repositório.
+4. Fazer uma sessão curta de repasse da configuração dos contêineres e dos scripts de ingestão, para que todos consigam subir o ambiente de testes e explicar o fluxo na arguição.
 
 ### 8.2 Maria Clara Farias Coelho — Engenharia de Dados
 
@@ -372,7 +382,17 @@ O Kayk estruturou o pipeline de streaming do projeto e traduziu requisitos de in
 2. **Longo prazo (12 meses):** concluir um curso de proteção de dados e privacidade (mínimo de 20 horas, com certificado) e entregar o RIPD completo da arquitetura de streaming, junto com um relatório de auditoria de viés com ao menos 3 métricas de equidade, até **31/10/2027**.
 
 **Feedback dos colegas**
-A Maria Clara garantiu que a proposta fosse funcional e também alinhada à LGPD, com atenção à proteção dos dados dos jovens e ao risco de discriminação. Para seu desenvolvimento, recomendamos aprofundar a prática de implementação de criptografia dentro dos pipelines de dados.
+*Escrito em conjunto por Kayk e Miguel.*
+
+**Sobre o papel:** a Maria Clara garantiu que a proposta fosse tecnicamente viável e também responsável. Foi ela quem trouxe para o centro do projeto os pontos mais sensíveis: dados de menores de 18 anos, o risco de punir jovens de baixa renda e a revisão humana. Sem esse trabalho, a solução poderia detectar bem e ainda assim ser injusta.
+
+**Sobre o plano:** a meta de mascaramento com Presidio em um tópico Kafka, com taxa mínima de detecção, é concreta e útil para o grupo. A meta de longo prazo (RIPD completo e relatório de viés com três métricas) é ambiciosa e muito relevante para o projeto. O ponto mais frágil do plano é a auditoria de viés, hoje marcada como "Não", e ela sustenta o indicador de equidade (razão de falso positivo ≤ 1,25).
+
+**Sugestões:**
+1. Escolher cedo as três métricas de equidade (por exemplo, taxa de falso positivo por grupo, taxa de alerta por grupo e paridade de oportunidades) e escrevê-las no repositório, para que o Miguel as inclua no painel e o Kayk calcule as variáveis necessárias.
+2. Aprofundar a parte prática de criptografia nos pipelines (chaves, rotação, criptografia em repouso do banco de auditoria), que hoje está só como "Parcial".
+3. Detalhar com o Miguel como será a reidentificação na tela do analista, com registro de acesso, para fechar a lacuna entre dados pseudonimizados e decisão humana.
+4. Incluir no plano uma revisão jurídica do RIPD (com o DPO do banco parceiro), já que as bases legais são a parte que mais gera perguntas.
 
 ### 8.3 Miguel Marcos da Silva Gonçalves — Engenharia de Dados
 
@@ -393,9 +413,17 @@ A Maria Clara garantiu que a proposta fosse funcional e também alinhada à LGPD
 2. **Longo prazo (12 meses):** concluir um curso de Prometheus e Grafana (mínimo de 15 horas) e montar um painel com 3 métricas de SLA (tempo de revisão do alerta, tempo de resposta à contestação e fila de alertas pendentes), com alertas automáticos quando o prazo for ultrapassado, até **31/10/2027**.
 
 **Feedback dos colegas**
-O Miguel conectou a infraestrutura de dados à interface de análise humana, com pontualidade, organização e visão orientada à solução, o que facilitou a integração dos serviços. Para seus próximos passos, recomendamos aprofundar observabilidade de dados, de modo a antecipar gargalos de rede ou perda de eventos nos pipelines antes que afetem o usuário final.
+*Escrito em conjunto por Kayk e Maria Clara.*
 
----
+**Sobre o papel:** o Miguel conecta a infraestrutura de dados às pessoas: o painel do analista e o fluxo de contestação são o que torna concreta a promessa do projeto de revisão humana e resposta em até 24 horas. Ele também ficou com a parte de integração, que costuma ser a mais subestimada e a que mais quebra em produção.
+
+**Sobre o plano:** as metas (quatro endpoints documentados com 80% de cobertura de testes e um painel de SLA com três métricas) são claras e verificáveis. A competência de observabilidade (Prometheus), hoje "Não", é importante, porque é ela que vai provar que os prazos prometidos aos jovens estão sendo cumpridos.
+
+**Sugestões:**
+1. Garantir que o portal de contestação e o painel sigam os requisitos de acessibilidade da seção 4 (teclado, contraste, leitor de tela), tratando isso como critério de aceite das entregas, e não como etapa posterior.
+2. Usar as métricas de latência do pipeline (Kayk) e as de equidade (Maria Clara) no mesmo painel, para o analista ver decisão, prazo e possível viés em um só lugar.
+3. Definir com antecedência o comportamento do fluxo quando o pipeline atrasar ou a API do banco falhar (por exemplo, nenhuma restrição é aplicada sem revisão), para que falhas técnicas não virem punição para o jovem.
+4. Documentar os endpoints e a trilha de auditoria de forma que qualquer integrante consiga demonstrá-los na arguição.
 
 ## 9. Referências
 
@@ -411,6 +439,7 @@ Fontes publicadas a partir de novembro de 2024 (dados e notícias) e legislaçã
 - BRASIL. *Lei nº 15.211, de 17 de setembro de 2025 (ECA Digital)*. Versão vigente.
 - BRASIL. *Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais)*. Versão vigente. https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm
 - W3C. *Web Content Accessibility Guidelines (WCAG) 2.2*. Versão vigente. https://www.w3.org/TR/WCAG22/
+
 
 
 
