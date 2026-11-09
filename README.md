@@ -1,11 +1,15 @@
 # Detecção precoce de contas laranja entre jovens, com revisão humana, contestação rápida e prevenção
 
-## intrigantes 
+## Integrantes
+
+
+| Nome completo  | GitHub | Área de carreira | RGM |
 |---|---|---|---|
+| Gabriella Basilio Rocha dos Santos | @shiniixx | Cibersegurança | 477778041 |
 | Kayk Alberto Santana Ferreira | @Kayksantanaf | Engenharia de Dados | 47792426 |
 | Maria Clara Farias Coelho | @mariaclarafarias1806-web| Engenharia de Dados | 47968427 |
 | Miguel Marcos da Silva Gonçalves | @GitHub do Miguel | Engenharia de Dados | 47963549 |
-| Gabriella Basilio Rocha dos Santos | @shiniixx | Cibersegurança | 477778041 |
+
 
 **Dossiê:** 2. Crime organizado no ambiente digital: aliciamento online e contas laranja.
 
