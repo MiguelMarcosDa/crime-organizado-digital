@@ -152,7 +152,7 @@ Identificadores diretos (nome, CPF, localização) ficam fora do pipeline de mod
 
 ### 2.3 O trabalho de cada área
 
-Os quatro integrantes são de duas áreas: três de Engenharia de Dados e uma de Cibersegurança. O trabalho se divide em quatro frentes.
+Os cinco integrantes são de três áreas: três de Engenharia de Dados, uma de Cibersegurança e uma de Ciência de Dados. O trabalho se divide em cinco frentes.
 
 #### Engenharia de Dados
 - **Ingestão e streaming:** projetar e manter os pipelines que levam cada evento transacional (Kafka e Flink) até a Feature Store, com baixa latência e sem perda de eventos, de modo que a pontuação de risco chegue ao analista em minutos.
