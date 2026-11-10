@@ -457,7 +457,23 @@ Papel no projeto: responsável pela modelagem de ameaças, pelo desenho de ident
 Metas SMART (6 a 12 meses)
 
 Curto prazo (6 meses): elaborar e publicar no repositório a modelagem de ameaças (STRIDE) do sistema, com pelo menos 10 ameaças mapeadas aos componentes da arquitetura (Kafka, Feature Store, banco de auditoria, painel do analista e portal de contestação), cada uma com um controle associado, e uma matriz de acesso com 4 perfis (analista, DPO, auditor e administrador técnico), até 30/04/2027.
+
 Longo prazo (12 meses): concluir um curso de segurança de aplicações e APIs (mínimo de 20 horas, com certificado) e entregar um relatório de teste, em ambiente de laboratório, dos 4 endpoints do fluxo de contestação contra o OWASP API Security Top 10, com autenticação por perfil e registro de todo acesso, até 31/10/2027.
+
+**Feedback dos colegas**
+*Escrito em conjunto por Kayk, Maria Clara e Miguel.*
+
+**Sobre o papel:** a Gabriella cobriu a área que o projeto declarava não ter: a segurança. Foi dela o desenho de quem pode ver o quê, de como a reidentificação na tela do analista é registrada e de como proteger o banco de auditoria. Sem esse trabalho, a pseudonimização, o painel e a contestação teriam dados bem tratados, mas sem regra clara de proteção. Ela também deixou explícito o que cabe ao grupo (modelagem de ameaças, acesso e auditoria) e o que fica com o banco parceiro (teste de invasão), o que torna a proposta mais honesta.
+
+**Sobre o plano:** as metas são mensuráveis e ligadas ao projeto (10 ameaças mapeadas, uma matriz com 4 perfis de acesso, 4 endpoints testados contra o OWASP API Security Top 10). Como todas as competências estão marcadas como "Iniciante", o curso de 20 horas é o ponto central do plano e sustenta a meta de 12 meses. A modelagem de ameaças vem primeiro, porque orienta as decisões de acesso e de chaves que vêm depois.
+
+**Sugestões:**
+
+1. Começar a modelagem de ameaças pelos componentes que guardam mais dado pessoal (Feature Store e banco de auditoria), para que os controles mais importantes sejam definidos primeiro.
+2. Combinar com o Kayk a segurança do Kafka e da Feature Store (criptografia em trânsito, controle de acesso por tópico) e com o Miguel a autenticação por perfil nos 4 endpoints, para que o ambiente de testes já nasça com esses controles.
+3. Definir com a Maria Clara onde termina a pseudonimização e onde começa a gestão de chaves, para as duas frentes não se sobreporem nem deixarem lacunas.
+4. Escrever um plano curto de resposta a incidentes (quem decide, quem avisa, como comunicar a ANPD e os titulares em caso de vazamento de dados de menores) e registrá-lo no repositório.
+5. Fazer uma sessão curta de repasse da matriz de acesso e da modelagem de ameaças, para que qualquer integrante consiga explicá-las na arguição.
 
 ## 9. Referências
 
